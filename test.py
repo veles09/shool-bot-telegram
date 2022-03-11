@@ -1,4 +1,5 @@
 import requests
+from collections.abc import Mapping
 from datetime import datetime
 import telebot
 from collections import namedtuple
