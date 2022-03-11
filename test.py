@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime
 import telebot
-
+# fathomless-basin-37475
 token = "5185066102:AAE-Pxf7QOcDEi4APWGyOtCBfws9YSZNT68"
 def get_date():
     req = requests.get("https://yobit.net/api/3/ticker/usd_rur")
