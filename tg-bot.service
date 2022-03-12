@@ -1,0 +1,14 @@
+[Unit]
+Description=shool-bot
+After=network.target
+
+[Service]
+User=veles
+Group=vladimir
+
+WorkingDirectory=/home/veles/shool-bot-telegram/
+Environment="PYTHONPATH=/home/veles/shool-bot-telegram/"
+ExecStart=/home/veles/shool-bot-telegram/.venv/bin/python /home/veles/shool-bot-telegram/test.py
+
+[Install]
+WantedBy=multi-user.target
