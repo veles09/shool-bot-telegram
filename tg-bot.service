@@ -4,7 +4,6 @@ After=network.target
 
 [Service]
 User=root
-Group=root
 
 WorkingDirectory=/home/veles/shool-bot-telegram/
 Environment="PYTHONPATH=/home/veles/shool-bot-telegram/"
