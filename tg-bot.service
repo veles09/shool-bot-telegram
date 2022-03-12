@@ -3,6 +3,8 @@ Description=shool-bot
 After=network.target
 
 [Service]
+User=veles
+Group=veles
 
 WorkingDirectory=/home/veles/shool-bot-telegram/
 Environment="PYTHONPATH=/home/veles/shool-bot-telegram/"
